@@ -1,8 +1,31 @@
-# React + Vite
+# React Fashion Blog
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a Fashion Blog application built using React and Vite. It showcases the ability to convert a static HTML/CSS mockup into dynamic, reusable React components, styled for a modern and aesthetically pleasing user interface.
 
-Currently, two official plugins are available:
+## Live Links
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Netlify Live Link](Netlify link here)
+
+- [GitHub Repository for HTML Version](GitHub link for HTML version)
+
+## Installation
+
+1. **Clone the repository:**
+
+   ```
+   git clone https://github.com/zahrajoulaei/React-Fashion-Blog
+   cd vite-react-fashion-blog
+   ```
+
+2. **Install dependencies:**
+
+    ```
+    npm install
+    ```
+3. **Run the application:**
+    ```
+    npm run dev
+    ```
+
+
+    The application will start running on http://localhost:3000.
