@@ -1,0 +1,24 @@
+article p::first-letter {
+  font-size: 4em;
+  color: 808080;
+  float: left;
+  font-weight: 600;
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+
+article p {
+  font-size: 1.4rem;
+  line-height: 1.4;
+  margin-top: 2rem;
+  font-weight: 500;
+  text-align: justify;
+}
+
+article span {
+  display: flex;
+  justify-content: end;
+}
+image {
+  width: 100%;
+}

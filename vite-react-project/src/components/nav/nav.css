@@ -1,0 +1,9 @@
+.menu-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.menu-list a,
+.menu-list a:visited {
+  color: #808080;
+}

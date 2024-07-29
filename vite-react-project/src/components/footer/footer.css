@@ -1,0 +1,13 @@
+footer a,
+footer a:visited {
+  color: tomato;
+}
+.menu-list-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+footer {
+  padding: 1rem 2rem;
+}
