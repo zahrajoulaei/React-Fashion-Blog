@@ -4,9 +4,9 @@ This project is a Fashion Blog application built using React and Vite. It showca
 
 ## Live Links
 
-- [Netlify Live Link](Netlify link here)
+- [Netlify Live Link](https://66a70cd94a43fcd44b0e7276--melodic-fox-179b8f.netlify.app/)
 
-- [GitHub Repository for HTML Version](GitHub link for HTML version)
+- [GitHub Repository for HTML Version](https://github.com/zahrajoulaei/React-Fashion-Blog/tree/main/static)
 
 ## Installation
 
