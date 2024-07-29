@@ -1,60 +1,73 @@
-html {
-    border-left: 5px solid gray;
+@font-face {
+  font-family: "Gill Sans MT Light";
+  src: url("./fonts/Gill-Sans-MT-Light.ttf");
 }
-body{
-    min-height: 100%;
-    max-width: 1000px;
-    font-family: sans-serif;
-    margin: 0 auto;
-}
-header,main,footer {
-    padding: 1rem 2rem;
 
+html {
+  border-left: 5px solid lightgray;
+}
+body {
+  min-height: 100%;
+  max-width: 1000px;
+  font-family: "Gill Sans MT Light", sans-serif;
+  font-size: 1.6rem;
+  margin: 0 auto;
+}
+header,
+main,
+footer {
+  padding: 1rem 2rem;
 }
 ul {
-    padding: 0;
-    list-style-type: none;
+  padding: 0;
+  list-style-type: none;
 }
-.menu-list, .menu-list-footer {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+.menu-list,
+.menu-list-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
-.menu-list a, .menu-list a:visited {
-    color: lightgray 
+.menu-list a,
+.menu-list a:visited {
+  color: #808080;
 }
 
 h1 {
-color: tomato;
+  color: tomato;
 }
 
 image {
-    width: 100%;
+  width: 100%;
 }
-footer a , footer a:visited {
-    color: tomato;
+footer a,
+footer a:visited {
+  color: tomato;
 }
-article p::first-letter{
-    font-size: 4em;
-    color: gray;
-    float: left;
-    margin-right: 10px;
-    line-height: 1;
+article p::first-letter {
+  font-size: 4em;
+  color: 808080;
+  float: left;
+  font-weight: 600;
+  padding-right: 2rem;
+  padding-left: 2rem;
 }
 
 article p {
-    font-family: 'Georgia', serif; 
-    font-size: 1.2em;
-    line-height: 1.6;             
-    color: #333;                 
-    text-align: justify;          
-    margin-bottom: 1.5em; 
-  }
+  font-size: 1.4rem;
+  line-height: 1.4;
+  margin-top: 2rem;
+  font-weight: 500;
+  text-align: justify;
+}
 
-  article span {
-    display: flex;
-    justify-content: end;
-  }
-  span a :visited, span a {
-    color: tomato;
-  }
+article span {
+  display: flex;
+  justify-content: end;
+}
+span a :visited,
+span a {
+  color: tomato;
+  font-size: 1.4rem;
+
+}
